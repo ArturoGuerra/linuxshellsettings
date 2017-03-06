@@ -1,4 +1,4 @@
-# Linuxshellsettings
+# Shellsettings
 My zsh and vim settings for shell also compatible with iterm2 in macOS and bash for windows
 
 # Requirements
@@ -10,4 +10,4 @@ My zsh and vim settings for shell also compatible with iterm2 in macOS and bash 
   
 # Installation
 
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/linuxshellsettings/master/install.sh)"`
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
