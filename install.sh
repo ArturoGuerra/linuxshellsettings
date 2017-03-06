@@ -8,5 +8,5 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
-sh -c "$(curl -o ~/.zshrc https://raw.githubusercontent.com/ArturoGuerra/linuxshellsettings/tree/master/zshrc/myzshrc)"
-sh -c "$(curl -o ~/.vimrc https://raw.githubusercontent.com/ArturoGuerra/linuxshellsettings/tree/master/zshrc/myvimrc)"
+sh -c "$(curl -o ~/.zshrc https://raw.githubusercontent.com/ArturoGuerra/linuxshellsettings/master/zshrc/myzshrc)"
+sh -c "$(curl -o ~/.vimrc https://raw.githubusercontent.com/ArturoGuerra/linuxshellsettings/master/zshrc/myvimrc)"
