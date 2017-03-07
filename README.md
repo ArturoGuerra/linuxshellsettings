@@ -10,6 +10,6 @@ My zsh and vim settings for shell also compatible with iterm2 in macOS and bash 
   
 # Installation
  - linux and bash for windows 
-     `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
+     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
  - macOS 
-     `ruby -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
+     - `ruby -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
