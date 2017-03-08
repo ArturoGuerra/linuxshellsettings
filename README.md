@@ -6,6 +6,7 @@ My zsh and vim settings for shell also compatible with iterm2 in macOS and bash 
 - arch based `sudo pacman -S zsh git curl`
 - yum based `sudo yum install zsh git curl`
 - macOS based `sudo brew install git zsh`
+  - [homebrew installation](https://brew.sh)
 - Fonts for all platforms:
   - Install [Fonts](https://github.com/powerline/fonts)
   
