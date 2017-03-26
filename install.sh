@@ -23,4 +23,5 @@ git clone https://github.com/bronson/vim-trailing-whitespace ~/.vim/bundle/vim-t
 git clone https://github.com/matze/vim-move ~/.vim/bundle/vim-move
 git clone https://github.com/tpope/vim-fugitive ~/.vim/bundle/vim-fugitive
 git clone https://github.com/Yggdroot/indentLine ~/.vim/bundle/indentLine
+git clone https://github.com/plasticboy/vim-markdown.git ~/.vim/bundle/vim-markdown
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/bundle/vim-airline-themes
