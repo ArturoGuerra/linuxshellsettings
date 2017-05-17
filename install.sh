@@ -3,8 +3,8 @@ chsh -s /bin/zsh
 if [[ `uname` == 'Darwin' ]]; then
    ruby -c "$(curl -fsSL https://raw.githubusercontent.com/powerline/fonts/master/install.sh)"
    ruby -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-   ruby -c "$(curl -o ~/.zshrc https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/zshrc/zshrc)"
-   ruby -c "$(curl -o ~/.vimrc https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/vimrc/vimrc)"
+   ruby -c "$(curl -o ~/.zshrc https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/zshrc)"
+   ruby -c "$(curl -o ~/.vimrc https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/vimrc)"
 else
    sh -c "$(curl -fsSL https://raw.githubusercontent.com/powerline/fonts/master/install.sh)"
    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
