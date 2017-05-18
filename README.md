@@ -9,9 +9,16 @@ My zsh and vim settings for shell also compatible with iterm2 in macOS and bash 
   - [homebrew installation](https://brew.sh)
 - Fonts for all platforms:
   - Install [Fonts](https://github.com/powerline/fonts)
-  
+
 # Installation
- - linux and bash for windows 
+ - Linux and bash for windows
      - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
- - macOS 
+ - macOS
      - `ruby -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
+
+# Copy vimrc and zshrc only
+ - Linux and bash for windows
+     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/copy.sh)"`
+ - macOS
+     - `ruby -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/copy.sh)"`
+
