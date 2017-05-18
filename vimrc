@@ -442,4 +442,5 @@ let g:vim_markdown_folding_disabled = 1
 set cursorcolumn
 set cursorline
 set pastetoggle=<f5>
+set number
 colorscheme solarized
