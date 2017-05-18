@@ -431,6 +431,14 @@ endfunction
 " if has("autocmd")
 "   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 "endif
+
+" Custom
+set number
+set cursorline
+set cursorcolumn
+set pastetoggle=<f5>
+
+" Pathogen
 execute pathogen#infect()
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='powerlineish'
@@ -439,8 +447,4 @@ let g:solarized_termcolors=256
 let g:indentLine_color_term = 239
 let g:indentLine_char = '┆'
 let g:vim_markdown_folding_disabled = 1
-set cursorcolumn
-set cursorline
-set pastetoggle=<f5>
-set number
 colorscheme solarized
