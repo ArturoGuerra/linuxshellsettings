@@ -88,7 +88,7 @@ alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #.zshrc addons
-addons=(.zshaddons .zshaliases)
+addons=(.zshaddons)
 for addon in ${addons[@]}
 do
     if [ -f $HOME/$addon ]; then
