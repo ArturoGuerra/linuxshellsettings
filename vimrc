@@ -438,6 +438,7 @@ set cursorline
 set cursorcolumn
 set pastetoggle=<f5>
 
+try
 " Pathogen
 execute pathogen#infect()
 let g:airline#extensions#tabline#enabled = 1
@@ -448,3 +449,5 @@ let g:indentLine_color_term = 239
 let g:indentLine_char = '┆'
 let g:vim_markdown_folding_disabled = 1
 colorscheme solarized
+catch
+endtry
