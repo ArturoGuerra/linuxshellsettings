@@ -450,4 +450,4 @@ let g:indentLine_char = '┆'
 let g:vim_markdown_folding_disabled = 1
 colorscheme solarized
 catch
-endtry
+endtry echo "Pathogen not installed!!"
