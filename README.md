@@ -16,9 +16,4 @@ My zsh and vim settings for shell also compatible with iterm2 in macOS and bash 
  - macOS
      - `ruby -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
 
-# Copy vimrc and zshrc only
- - Linux and bash for windows
-     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/copy.sh)"`
- - macOS
-     - `ruby -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/copy.sh)"`
 
