@@ -439,6 +439,16 @@ set cursorcolumn
 set pastetoggle=<f5>
 
 try
+let vim_req_check=expand('~/.vim/README.md')
+if !filereadable(vim_req_check)
+    echo "Starting vim setup..."
+    echo ""
+    silent !git clone git@github.com:ArturoGuerra/.vim.git ~/.vim
+endif
+catch
+endtry
+
+try
 " Pathogen
 execute pathogen#infect()
 let g:airline#extensions#tabline#enabled = 1
