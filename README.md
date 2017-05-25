@@ -11,6 +11,6 @@ My zsh and vim settings for shell also compatible with iterm2 in macOS and bash 
   - Install [Fonts](https://github.com/powerline/fonts)
 
 # Installation
-    - sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"
+- `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
 
 
