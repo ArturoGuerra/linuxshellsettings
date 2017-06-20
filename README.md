@@ -10,6 +10,18 @@ My zsh and vim settings for shell also compatible with iterm2 in macOS and bash 
 - Fonts for all platforms:
   - Install [Fonts](https://github.com/powerline/fonts)
 
+# Term Variable
+  - `xterm-256color` for putty
+  - `screen-256color` for tmux
+    - TMUX COMMAND: `which tmux >/dev/null 2>&1 && { tmux -2 attach || tmux -2 new; } || zsh`
+
+# Putty Colors
+  - ANSI Blue: 0R 128G 255B
+  - ANSI Blue Bold 85R 85G 255B
+
+# iTerm2 Profile
+  - Import `arturo.itermcolors`
+
 # Installation
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
 
