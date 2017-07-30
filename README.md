@@ -25,4 +25,5 @@ My zsh and vim settings for shell also compatible with iterm2 in macOS and bash 
 # Installation
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ArturoGuerra/shellsettings/master/install.sh)"`
 
-
+# Credit
+- [Haden](https://thehaden.co): *each and ewerything*
